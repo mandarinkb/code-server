@@ -16,8 +16,8 @@ services:
       # - DEFAULT_WORKSPACE=/config/workspace #optional
     volumes:
       - /config:/config
-      - /config:/data
-      - /config:/datago
+      - /data:/data
+      - /datago:/datago
     ports:
       - 8443:8443
     restart: unless-stopped
